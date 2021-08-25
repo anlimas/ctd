@@ -1,0 +1,33 @@
+
+/* Testando o comentários no CSS, HTML */
+
+body{
+
+    background-color: cornsilk;
+}
+
+h1 {
+
+    color: deepskyblue;
+
+}
+
+.titulo-principal {
+
+    color: mediumblue;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tituloSecundario {
+
+    color: midnightblue;
+    font-size: 45px;
+}
+
+.card a .card p {
+
+    color: black;
+    font-size: 30px;
+
+}
