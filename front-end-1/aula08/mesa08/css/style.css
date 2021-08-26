@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+body {
+    font-family     : 'Roboto', sans-serif;
+    background-color: #131313;
+}
+
+.titulo-principal {
+    color      : white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.media-picture {
+    width              : 100%;
+    height             : 400px;
+    background-image   : url(https://images.wallpapersden.com/image/download/avengers-endgame-2019-movie_a2loaGWUmZqaraWkpJRmZWdprWtlZQ.jpg);
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+}
+
+.review-score {
+    color           : white;
+    background-color: #e6bd09;
+    padding         : 12px;
+}
+
+.subtitulos {
+    color: steelblue;
+}
+
+.texto-resenha {
+    color      : #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hiperlinks {
+    color: yellow;
+}
