@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.banner{
+
+    height: 720px;
+    width: 1280px;
+    background-image: url(https://tribunapr.uol.com.br/wp-content/uploads/2020/06/05103148/girafa-970x550.jpg);
+    background-repeat: no-repeat;
+    background-position:inherit;
+    background-size: cover;
+    padding: 150px;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+
+    font-family: "Roboto";
+    font-size: 70px;
+    color: orangered;
+    text-align: center;
+    text-shadow: #000 3px -3px, #000 -3px 3px, #000 3px 3px, #000 -5px -5px;
+ 
+}
+
+.banner h2 {
+
+    color: white;
+    font-family: "Quicksand";
+    text-align: center;
+       
+}
+
+.buttom{
+
+    height: 40px;
+    width: 100px;
+    color: black;
+    font-family: "Roboto";
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
