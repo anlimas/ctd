@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap'); /*Glory*/
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'); /*Paytone One */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Glory";
+    background-image: url(SP.jpg);
+    background-position: center;
+    background-repeat: repeat;
+
+}
+
+.titulo {
+
+    background-color: rgba(255, 255, 255, 0.5);   
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1400px/2);
+    padding: 0 20px;
+    z-index: 50;
+}
+
+.titulo h1{
+
+    font-size: 270px;
+    font-family: "Paytone One";
+    margin: 0px 40px;
+    
+
+}
+
+.titulo h2 {
+
+    font-size: 110px;
+    margin-left: 60px;
+
+}
+
+.conteudo div {
+
+    background-color: white;
+    width: 1489px;   
+    position: absolute;
+    top: 610px;
+    left: calc(50% - 1400px/2);
+    right: calc(50% - 1400px/2);
+    box-sizing: border-box;
+    
+
+}
+
+
+.conteudo p {
+
+    font-size: 40px;
+    text-align: justify; 
+    margin: 10px 50px;
+    
+}
+
+.conteudo strong {
+
+    color: red;
+}
+
+.conteudo h2{
+
+    margin-top: 50px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.video {
+
+    margin-left: 100px;
+    
+}
+
+.conteudo ul {
+
+    font-size: 40px;
+    margin: 50px
+}
+
+.contato {
+
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.youtube img {
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+
+}
+
+.instagram img {
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+
+
+}
