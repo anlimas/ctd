@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: #DCDCDC;
+    font-family: "Rubik";
+    
+    
+    
+}
+
+.main-menu {
+
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    position: fixed;
+    top: 20px;
+    z-index: 50;
+}
+
+.main-menu a {
+
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+    left: 38%;
+    
+    
+
+}
+
+.logo{
+
+    background-color: #012443;
+    height: 110px;
+    position: absolute;
+    Left: 27%;
+    margin-top: -8px;
+}
+
+.banner{
+
+    height: 400px;
+    width: 100%;
+    background-image: url(https://besthqwallpapers.com/Uploads/1-11-2019/110233/thumb2-4k-scotland-autumn-mountains-beautiful-nature.jpg);
+    background-position: center;
+    position: absolute;
+    top: 160px;
+    
+
+}
+
+.banner h2 {
+
+    color: red;
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    margin-left: 35%;
+    text-align: center;
+    padding: 2px;
+    
+    
+}
+
+
+.banner p {
+
+    color: black;
+    background-color: rgb(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    margin-left: 35%;
+    text-align: center;
+    padding: 2px;
+    
+    
+}
+
+.card{
+
+    
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 630px;
+    left: 60px;
+    z-index: 2;
+    
+}
+
+.card img {
+
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.button-link {
+
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.card p{
+
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+.card1{
+
+    
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 630px;
+    left: 550px;
+    z-index: 2;
+    
+}
+
+.card1 img {
+
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+
+.card1 p{
+
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+.card2{
+
+    
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 630px;
+    left: 1040px;
+    z-index: 2;
+    
+}
+
+.card2 img {
+
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+
+.card2 p{
+
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+
+
+.img-whatts {
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 1%;
+    bottom: 5%;
+}

@@ -1,0 +1,23 @@
+.box{
+
+    width: 250px;
+    height: 250px;
+}
+
+.first-box{
+
+    background-color: cadetblue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+
+
+}
+
+.second-box{
+
+    background-color: crimson;
+    position: absolute;
+    z-index: 2;
+}
