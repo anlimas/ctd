@@ -83,14 +83,15 @@ body{
 .conteudo ul {
 
     font-size: 40px;
-    margin: 50px
+    margin-top: 50px;
+    margin-left: 90px;
 }
 
 .contato {
 
     width: 200px;
     height: 100px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
 }
@@ -101,6 +102,7 @@ body{
     height: 100px;
     position: absolute;
     left: 0;
+
 
 }
 
