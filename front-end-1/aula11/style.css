@@ -1,0 +1,35 @@
+.box{
+
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+    
+}
+
+.box-first{
+
+   
+    background-color: chocolate;
+    position: relative;
+    left: 50px;
+}
+
+.box-second{
+
+   
+    background-color: red;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    
+}
+
+.box-third{
+
+   
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: calc(50% - 250px/2);
+    
+}
