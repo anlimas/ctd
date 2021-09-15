@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img src="https://static.dicionariodesimbolos.com.br/upload/b1/ee/logo-da-apple-voce-sabe-como-surgiu-o-simbolo-da-maca-mordida-1_xl.jpeg" alt="">
+    <form>
+
+        <h1>Formulario de Cadastro</h1>
+
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="birthDate">Data de nascimento</label>
+                <input type="date" id="birthDate">
+            </div>
+
+            <label for="person">Pessoa Juridica</label>
+            <input type="radio" name="person" id="juridico">
+
+            <label for="person">Pessoa Fisica</label>
+            <input type="radio" name="person" id="juridico">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Localização</legend>
+
+            <div>
+                <label for="city">Cidade</label>
+                <select type="city" id="city">
+                    <option value="">São Paulo</option>
+                    <option value="">São Roque</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Pindamonhangaba</option>
+                    <option value="">Sorocaba</option>
+                </select>
+            </div>
+        </fieldset>
+
+
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+
+</body>
+</html>
