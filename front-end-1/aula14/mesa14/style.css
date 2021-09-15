@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body {
+
+    font-family: "Montserrat";
+    background-color: #00A19D;
+}
+
+
+
+.card-box{
+
+    width: 250px;
+    height: 400px;
+    background-color: #F3F0D7;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
+.card-box h2 {
+
+    color: black;
+    text-align: center;
+}
+
+.card-box p {
+
+    margin: 0 25px;
+    font-size: 13px;
+    text-align: center;
+
+
+}
+
+.card-box button {
+
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+
+
+.conteudo img {
+
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.pedido {
+
+    margin: 0 40px;
+}
+
+.pedido input {
+
+    text-align: center;
+    margin: 10px;
+    width: 40px;
+}
+
+.pedido label {
+
+    text-align: center;
+
+}
