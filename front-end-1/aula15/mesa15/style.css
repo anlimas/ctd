@@ -1,0 +1,39 @@
+h1::first-letter{
+
+    color: orange
+}
+
+input:focus {
+
+    background-color: yellow;
+
+}
+
+input:checked {
+
+    transform: scale(2);
+    
+
+
+}
+
+ul li:nth-child(2n+3){
+
+    color: gold
+}
+
+a:hover{
+
+    background-color: black;
+    color: white;
+}
+
+input:disabled {
+
+    border-color: red;
+}
+
+input:enabled {
+
+    border-color: green;
+}
